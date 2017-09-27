@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=initialBalance
+comment0.target=ChequingAccount(double)
+comment0.text=\n\ calls\ its\ superclass\ constructor\ to\ set\ the\ balance\ to\ the\ specified\ initial\ balance.\ \n\ It\ also\ initializes\ the\ counter\ that\ keeps\ track\ of\ the\ number\ of\ withdrawals\ to\ 0.\n
+comment1.params=amount
+comment1.target=void\ withdraw(double)
+comment1.text=\n\ in\ addition\ to\ withdrawing\ the\ specified\ amount\ of\ money\ from\ the\ account,\ this\ method\ will\ \n\ update\ the\ withdrawal\ counter.\ If\ the\ number\ of\ withdrawals\ in\ the\ month\ exceeds\ the\ number\ of\ \n\ free\ withdrawals,\ the\ $1\ transaction\ fee\ is\ charged\ when\ the\ money\ is\ withdrawn.\ Note\ that\ the\ \n\ w?ithdraw?\ method\ in\ ?BankAccount\ ?must\ be\ called\ to\ reduce\ the\ account\ balance,\ because\ methods\ in\ ?\n\ ChequingAccount?\ cannot\ access\ the\ private\ b?alance?field\ defined\ in\ ?BankAccount.?\n\ (i.e.,\ results\ in\ a\ negative\ balance).\n
+comment2.params=
+comment2.target=void\ monthEnd()
+comment2.text=\n\ this\ method\ simply\ resets\ the\ withdrawal\ counter\ to\ 0\n
+numComments=3

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=double\ calculatePay()
+comment0.text=\n\ Calculate\ two\ week's\ pay\ for\ this\ employee.\n\ \n\ @return\ the\ amount\ this\ employee\ is\ paid\ every\ two\ weeks.\n
+comment1.params=name\ id
+comment1.target=Employee(java.lang.String,\ int)
+comment2.params=obj
+comment2.target=boolean\ equals(java.lang.Object)
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\n\ Return\ a\ string\ representation\ of\ this\ employee.\n\ \n\ @return\ a\ string\ of\ the\ form\ "name\:\ id";\ for\ example,\n\ \ \ \ \ \ \ \ \ "Cathy\ Coder\:\ 123456"\n
+numComments=4

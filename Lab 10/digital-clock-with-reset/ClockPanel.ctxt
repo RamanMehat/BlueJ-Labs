@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ClockPanel()
+comment0.text=\n\ Initializes\ the\ user\ interface.\n
+comment1.params=
+comment1.target=void\ refreshUI()
+comment1.text=\n\ Updates\ the\ user\ interface\ to\ show\ the\ current\ time.\n
+numComments=2

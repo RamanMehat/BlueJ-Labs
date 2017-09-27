@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=initialBalance
+comment0.target=BankAccount(double)
+comment0.text=\n\ the\ constructor\ always\ sets\ the\ balance\ to\ the\ specified\ initial\ balance.\n
+comment1.params=amount
+comment1.target=void\ deposit(double)
+comment1.text=\n\ this\ method\ increases\ the\ balance\ by\ the\ specified\ amount.\n
+comment2.params=amount
+comment2.target=void\ withdraw(double)
+comment2.text=\n\ this\ method\ decreases\ the\ balance\ by\ the\ specified\ amount.\ No\ check\ is\ made\ to\ see\ if\ the\ account\ will\ be\ overdrawn\n
+comment3.params=
+comment3.target=double\ getBalance()
+comment3.text=\n\ this\ method\ returns\ the\ current\ balance\n
+numComments=4

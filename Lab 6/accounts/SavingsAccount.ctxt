@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=initialBalance
+comment0.target=SavingsAccount(double)
+comment0.text=\n\ calls\ its\ superclass\ constructor\ to\ set\ the\ balance\ to\ the\ specified\ initial\ balance.\ \n\ It\ also\ initializes\ the\ interest\ rate\ to\ 0,\ and\ minimum\ monthly\ balance\ to\ the\ initial\ balance.\n
+comment1.params=rate
+comment1.target=void\ setInterestRate(double)
+comment1.text=\n\ this\ method\ sets\ the\ monthly\ interest\ rate.\ Parameter\ ?rate?\ is\ the\ monthly\ interest\ rate,\ \n\ expressed\ as\ a\ percent\ (e.g.,\ if\ the\ interest\ rate\ is\ 1.2%,\ pass\ 1.2\ to\ this\ method).\n
+comment2.params=amount
+comment2.target=void\ withdraw(double)
+comment2.text=\n\ this\ method\ reduces\ the\ amount\ of\ money\ in\ the\ account,\ and\ if\ necessary\ updates\ the\ minimum\ \n\ balance.\ Note\ that\ the\ withdraw?\ method\ in\ ?BankAccount\ m?ust\ be\ called\ to\ reduce\ the\ account\ \n\ balance,\ because\ methods\ in\ ?SavingsAccount?\ cannot\ access\ the\ private\ ?balance?\ field\ \n\ defined\ in\ ?BankAccount.?This\ method\ does\ not\ need\ to\ check\ if\ the\ account\ will\ \n\ be\ overdrawn\ (i.e.,\ result\ in\ a\ negative\ balance)\n
+comment3.params=
+comment3.target=void\ monthEnd()
+comment3.text=\n\ this\ method\ calculates\ the\ monthly\ interest\ (remember,\ it's\ calculated\ on\ the\ m?inimum\ ?monthly\ \n\ balance,\ not\ the\ account\ balance\ at\ the\ end\ of\ the\ month),\ deposits\ this\ amount\ into\ the\ \n\ account,\ and\ then\ updates\ the\ minimum\ balance\ to\ equal\ the\ current\ balance.\n
+numComments=4

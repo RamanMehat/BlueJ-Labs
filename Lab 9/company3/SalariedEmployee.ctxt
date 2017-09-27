@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=name\ id
+comment0.target=SalariedEmployee(java.lang.String,\ int)
+comment1.params=salary
+comment1.target=void\ setAnnualSalary(double)
+comment2.params=
+comment2.target=double\ calculatePay()
+comment2.text=\n\ Return\ a\ string\ representation\ of\ this\ employee.\n\ \n\ @return\ a\ string\ of\ the\ form\ "name\:\ id";\ for\ example,\n\ \ \ \ \ \ \ \ \ "Cathy\ Coder\:\ 123456"\n
+numComments=3
